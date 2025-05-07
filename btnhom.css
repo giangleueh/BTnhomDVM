@@ -1,6 +1,29 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    /* Typo */
+    --weight-bold: 700;
+    --weight-med: 500;
+    --weight-regular: 400;
+    --text-30-size: 30px;
+    --text-24-size: 24px;
+    --text-20-size: 20px;
+    --text-18-size: 18px;
+    --text-16-size: 16px;
+    --text-14-size: 14px;
+    --display-40-size: 40px;
+    --display-32-size: 30px;
+    /* Color */
+    --Color-Primary: #1E4380;
+    --Color-Secondary: #EBBEC0;
+    --Color-Bg-color: #EFEEE5;
+    --Neutral-1: #C1C3C3;
+    --Neutral-2: #BDC1C0;
+    --Neutral-3: #5F6160;
+    --Neutral-4: #2F3030;
+    --Border-radius : 20px;
 }
