@@ -26,5 +26,115 @@
     --Neutral-3: #5F6160;
     --Neutral-4: #2F3030;
     --Border-radius : 20px;
-    /* Testing branch */
+    /* Chỉ là testing một chút thôi */
+}
+ /* Css hero-banner trở lên*/
+ body {
+    font-family: 'Quicksand';
+}
+.language-option{
+    border: none;
+    background: none;
+    Color: white;
+    padding: 0;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+.top-bar {
+    background-color: var(--Color-Primary);
+    color: var(--Color-Bg-color);
+    font-size: 14px;
+    padding: 4px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-bar-1 {
+   display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 6px;
+}
+.top-bar-2 {
+  align-items: center;
+  font-size: 14px;
+font-weight: 500;
+}
+.nav-bar {
+  background-color: var(--Color-Bg-color);
+  padding: 4px 160px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .logo {
+  
+  
+}
+.menu-nav{
+  display: flex;
+  gap: 48px;
+}
+.nav-bar a {
+  color:var(--Color-Primary);
+  Font-weight: 700;
+  text-decoration: none;
+
+}
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.right-links{
+  display: flex;
+  gap: 25px;
+}
+.action{
+  display: flex;
+  gap: 12px;
+}
+
+.hero-section {
+  background-image: url(./Img/hero-banner.svg);
+  height:500px;
+  display: flex;
+  align-items: flex-start;  
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -80px;
+  gap: 25px;
+  padding-left: 160px;
+
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  color: var(--Color-Bg-color);
+  width: auto;
+  border-radius: var(--Border-radius);
+  padding-right: 100px;
+  gap: 8px;
+}
+.hero-content p{
+  width: 400px;
+}
+
+.hero-section button {
+  background-color: var(--Color-Secondary);
+  Font-size: var(--text-20-size);
+  color: var(--Color-Bg-color);
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+}
+.hero-section button:hover {
+  background-color: #f472b6;
 }
