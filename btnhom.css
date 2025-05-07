@@ -28,3 +28,101 @@
     --Border-radius : 20px;
     /* Chỉ là testing một chút thôi */
 }
+ /* Css hero-banner trở lên*/
+ body {
+    font-family: 'Quicksand';
+}
+.language-option{
+    border: none;
+    background: none;
+    Color: white;
+    padding: 0;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    Margin-right: 30px;
+}
+.top-bar {
+    background-color: var(--Color-Primary);
+    color: var(--Color-Bg-color);
+    font-size: 14px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-bar-1 {
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.top-bar-2 {
+  align-items: center;
+  font-size: 14px;
+font-weight: 500;
+}
+.nav-bar {
+  background-color: var(--Color-Bg-color);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .logo {
+    margin-left: 100px;
+    Margin-top: 0px;
+    Margin-bottom: 0px;
+    padding: 0;
+}
+.nav-bar a {
+  color:var(--Color-Primary);
+  Font-weight: 700;
+  text-decoration: none;
+  margin-left: 24px;
+  margin-right: 30px;
+}
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+.nav-bar .right-links a {
+  margin-left: 16px;
+  margin-right: 30px;
+}
+.hero-section {
+  background-image: url('Img/Hero-banner.svg');
+  width: 1,440px;
+  height:543px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  position: relative;
+}
+.hero-section .text-content {
+  color: var(--Color-Bg-color);
+  max-width: 500px;
+  Margin-left: 100px;
+  border-radius: var(--Border-radius);
+}
+.hero-section h1 {
+  font-size: var(--text-30-size);
+  font-weight: var(--weight-bold);
+  margin-bottom: 16px;
+}
+.hero-section p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.hero-section button {
+  background-color: var(--Color-Secondary);
+  Font-size: var(--text-20-size);
+  color: var(--Color-Bg-color);
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+}
+.hero-section button:hover {
+  background-color: #f472b6;
+}
